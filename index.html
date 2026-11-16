@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./index.css" />
+    <!-- Favicon link -->
+    <link
+      rel="shortcut icon"
+      href="https://static.vecteezy.com/system/resources/previews/009/645/783/non_2x/portfolio-icon-logo-illustration-folder-symbol-template-for-graphic-and-web-design-collection-free-vector.jpg"
+      type="image/x-icon"
+    />
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Redaction+10:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- animate.css  it only effect when refresh the page -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- aos link Animation On Scrolling   it effect while scrolling -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="./Assets/Anzy S. Web Developer Logo.png" alt="logo" />
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skill</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home"> 
+      <div class="homeContents">
+        <h1 class="animate__animated animate__fadeInTopLeft">
+          I'm Anzy <span>S</span>
+        </h1>
+        <p>
+          This is my official portfolio website to describe all <br />
+          Details and Work Experience in Web Development.
+        </p>
+        <a target="_blank" href="./Assets/ANZY Resume.pdf">Download CV</a>
+        <!-- target="_blank".....is used to open a link in a new browser tab.. -->
+      </div>
+      <div class="homeImages">
+        <img id="shape" src="./Assets/shape.png" alt="shape img" />
+        <img id="girl" src="./Assets/girl.png" alt="girl img" />
+      </div>
+    </section>
+
+    <section id="about">
+      <h1 class="mainHead">About Me</h1>
+      <h3 class="subHead">Introduction</h3>
+
+      <div id="aboutContainer">
+        <div class="aboutImage">
+          <img data-aos="flip-left" src="./Assets/about.jpg" alt="aboutImage" />
+        </div>
+        <div class="aboutContent">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui cum
+            magni ipsum velit perspiciatis atque aperiam deleniti eum, eligendi
+            accusamus aliquam consectetur error commodi cumque! Tempore
+            accusantium omnis nihil voluptas? Ipsam eius hic at rerum quaerat.
+            Debitis deserunt voluptatibus soluta ea dolores rem consequatur
+            natus voluptas reiciendis similique qui sapiente alias explicabo
+            corporis tenetur asperiores temporibus, quisquam ipsa sequi.
+            Quibusdam.
+          </p>
+          <ul>
+            <li><i class="fa-solid fa-user"></i> Anzy S</li>
+            <li><i class="fa-solid fa-phone"></i> 8234767590</li>
+            <li><i class="fa-solid fa-envelope"></i> anzy@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h1 class="mainHead">Skills</h1>
+      <h3 class="subHead">My Skill</h3>
+
+      <div class="mainContainer">
+        <div class="skillsChartContainer">
+          <div class="eachBarContainer">
+            <h3>HTML</h3>
+            <h3>89%</h3>
+            <div class="baseBar"></div>
+            <div class="htmlBar"></div>
+          </div>
+
+          <br /><br />
+
+          <div class="eachBarContainer">
+            <h3>CSS</h3>
+            <h3>80%</h3>
+            <div class="baseBar"></div>
+            <div class="cssBar"></div>
+          </div>
+
+          <br /><br />
+
+          <div class="eachBarContainer">
+            <h3>JAVASCRIPT</h3>
+            <h3>84%</h3>
+            <div class="baseBar"></div>
+            <div class="jsBar"></div>
+          </div>
+
+          <br /><br />
+
+          <div class="eachBarContainer">
+            <h3>REACT</h3>
+            <h3>83%</h3>
+            <div class="baseBar"></div>
+            <div class="reactBar"></div>
+          </div>
+        </div>
+        <div class="skillsImage">
+          <img   data-aos="zoom-out-down"  src="./Assets/skills.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="contacts">
+      <h1 class="mainHead">Contacts</h1>
+      <h3 class="subHead">My Contacts</h3>
+      <div class="contactContainer">
+        <div class="iconContainer">
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="iconContainer">
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="iconContainer">
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="iconContainer">
+          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <div class="iconContainer">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <div class="iconContainer">
+          <a href=""><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>
+        &copy;My Portfolio Website - October 2026,All Rights Reserved
+        to&reg;Anzy S
+      </p>
+      <div
+        style="position: fixed; right: 10px; bottom: 10px"
+        class="iconContainer"
+      >
+        <a href=""><i class="fa-solid fa-chevron-up"></i></a>
+      </div>
+    </footer>
+  </body>
+  <script>
+    AOS.init();
+  </script>
+</html>
